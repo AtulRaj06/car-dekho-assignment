@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(node prisma/seed.js)",
+      "Bash(npx next *)",
+      "Bash(Start-Process npx *)",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(python3 -c \"import sys,re; html=sys.stdin.read\\(\\); classes=re.findall\\(r'class=\\\\\"\\([^\\\\\"]+\\)\\\\\"', html\\); [print\\(c\\) for c in classes[:20]]\")",
+      "Bash(node -e \"const http=require\\('http'\\);let d='';http.get\\('http://localhost:3000/',r=>{r.on\\('data',c=>d+=c\\);r.on\\('end',\\(\\)=>{const m=d.match\\(/class=\\\\\"[^\\\\\"]+max-w[^\\\\\"]+\\\\\"/g\\)||[];m.slice\\(0,5\\).forEach\\(x=>console.log\\(x\\)\\)}\\)}\\).on\\('error',e=>console.error\\(e\\)\\)\")",
+      "Bash(rm \"C:\\\\Users\\\\atulr\\\\car-dekho-assignment\\\\postcss.config.mjs\" && echo \"removed mjs\")",
+      "WebSearch",
+      "WebFetch(domain:upload.wikimedia.org)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\atulr\\car-dekho-assignment",
+      "c:\\Users\\atulr\\car-dekho-assignment\\src\\app\\cars"
     ]
   }
 }
