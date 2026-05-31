@@ -270,7 +270,7 @@ async function main() {
   console.log('Seeding database...');
 
   for (const carData of cars) {
-    const { reviews, ...car } = carData;
+    const { reviews, imageUrl: _img, ...car } = carData;
 
     const existing = await prisma.car.findFirst({
       where: { make: car.make, model: car.model, variant: car.variant },
