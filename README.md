@@ -2,7 +2,7 @@
 
 A personalized car recommendation tool for Indian buyers. Answer 5 questions, get a ranked shortlist, compare cars side-by-side.
 
-**Live:** [car-dekho-assignment.up.railway.app](https://car-dekho-assignment.up.railway.app) &nbsp;·&nbsp; **Deploy guide:** [RAILWAY.md](RAILWAY.md)
+**Live:** [car-dekho-assignment-production.up.railway.app](https://car-dekho-assignment-production.up.railway.app/) &nbsp;·&nbsp; **Deploy guide:** [RAILWAY.md](RAILWAY.md)
 
 ---
 
